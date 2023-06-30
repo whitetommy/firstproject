@@ -2,11 +2,10 @@
     <head>
         <link href = "7_4_3.css" rel="stylesheet">
         <script src="https://kit.fontawesome.com/b64bf0a55d.js" crossorigin="anonymous"></script>
-        <script src = "12_3_1.js"></script>
+        <script src = "script.js"></script>
     </head> 
     <body>
-        <input />
-        <p onClick ="hi()"> click here </p>
+
 
         <div>
             <div id="top">
@@ -25,11 +24,11 @@
         <div>
             <div id = "profile">
                 <div id = "profile_pic">
-                    <img src = "image/profile.jpg" width="50px" class="circle_pic">
+                    <img class = "circle_pic" src = "image/profile.jpg" width="50px"/>
                 </div>
                 <div id="profile_info">
                     <div id = "id">
-                        jjiyoo_ni
+                        <span>jjiyoo_ni</span>
                         <i class="fa-solid fa-gear"></i>
                     </div>
                     <button>프로필 편집</button>
@@ -37,9 +36,10 @@
             </div>
         </div>
         <p>
-            <strong>Jiyoon</strong><br/>
+            <strong id="userInfo">Jiyoon</strong><br/>
+            <span id="summary">대학생</span>
         </p>
-        <p>
+        <p id = "profileDetail">
             <a href="https://whitetommy.github.io">
                 https://whitetommy.github.io</a>
         </p>
